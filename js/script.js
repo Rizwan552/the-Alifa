@@ -60,3 +60,15 @@
     },
   });
   
+
+  let mobile_icon = document.querySelector('.mobile_icon');
+  let mobile_icon_line = document.querySelector('.line');
+  let mobile_menu = document.querySelector('.nav_menu');
+  let marker = document.querySelector('#marker');
+  var nav_links = document.querySelectorAll('nav li a');
+  
+  mobile_icon.addEventListener('click', () => {
+    mobile_icon_line.classList.toggle('active');
+    mobile_menu.classList.toggle('active');
+  });
+  

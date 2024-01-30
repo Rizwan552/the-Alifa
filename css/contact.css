@@ -587,10 +587,21 @@ body {
     object-fit: contain;
     padding: 20px;
   }
+  
+  .contact-container{
+    padding: 3rem;
+  }
+  .contact-cards{
+    padding: 3rem;
+  }
+  .map-container{
+    text-align: center;
+  }
 .contact-icon{
     display: flex;
     padding: 7px 0;
 }
+
 .contact-icon h5{
     padding: 0 10px;
 }
@@ -698,6 +709,29 @@ body {
     border-radius: 20px !important;
     zoom: 0.9;
     
+  }
+  @media (max-width: 660px) {
+
+    .contact-container{
+      padding: 0.5rem;
+    }
+    .contact-cards{
+      padding: 1rem;
+    }
+    #section-7{
+  
+      padding: 5px;
+    }
+    .title {
+   padding-top: 18px;
+    }
+    .login-box {
+
+      width: 100%;
+      padding: 20px;
+      margin: 0px auto;
+  
+    }
   }
 
 

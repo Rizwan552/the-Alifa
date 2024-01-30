@@ -53,6 +53,109 @@ body {
     background-attachment: fixed;
     position: relative;
 }
+.home4 {
+
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/email-marketin-1.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home5{
+  background:url("https://thealifa.com/wp-content/uploads/2023/10/Untitled-design-1024x615.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home6{
+  background:url("https://thealifa.com/wp-content/uploads/2023/10/herp-section-.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.home7{
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/Social-Media-Post-Design-Service.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home8{
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/logo-hero-.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home9{
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/Print-Media-Design-Services.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home10{  
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/UIUX-Design​.png")no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.social-2{
+  background:url(../images/insta.jpeg) no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.social-3{
+  background:url(../images/youtube.jpeg) no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.social-4{
+  background:url(../images/twitter.jpeg) no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.social-5{
+  background:url(../images/influence.jpeg) no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+
 
 .overlay-text {
     position: absolute;

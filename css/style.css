@@ -1076,6 +1076,28 @@ color: azure;
     object-fit: contain;
     padding: 20px;
   }
+  .contact-container{
+    padding: 3rem;
+  }
+  .contact-cards{
+    padding: 3rem;
+  }
+  .map-container{
+    text-align: center;
+  }
+  @media (max-width: 660px) {
+
+    .contact-container{
+      padding: 0.5rem;
+    }
+    .contact-cards{
+      padding: 1rem;
+    }
+    #section-7{
+
+      padding: 5px;
+    }
+  }
 .contact-icon{
     display: flex;
     padding: 7px 0;
@@ -1302,4 +1324,18 @@ ul{
 .whatsapp-icon h6{
 font-size: 18px;
 
+}
+@media (max-width: 660px) {
+
+
+  .title {
+ padding-top: 18px;
+  }
+  .login-box {
+
+    width: 100%;
+    padding: 20px;
+    margin: 0px auto;
+
+  }
 }

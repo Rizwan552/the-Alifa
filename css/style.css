@@ -1448,6 +1448,11 @@ ul {
     width: 50%;
     margin-bottom: 30px;
   }
+  .overlay-text {
+
+    font-size: 8vw;
+  
+  }
 }
 
 @media(max-width: 574px) {

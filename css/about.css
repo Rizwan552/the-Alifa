@@ -807,6 +807,11 @@ ul {
         width: 50%;
         margin-bottom: 30px;
     }
+    .overlay-text {
+
+      font-size: 8vw;
+    
+    }
 }
 
 @media(max-width: 574px) {
@@ -836,3 +841,17 @@ ul {
   font-size: 18px;
   
   }
+  @media only screen and (max-width: 768px) {
+    .dropdown-menu .dropdown-submenu {
+      display: none;
+      position: absolute;
+      left: 80%;
+      top: -7px;
+    }
+    .first-drop{
+      margin: 0px -40px !important;
+      width: 50% !important;
+    }
+    
+  }
+  

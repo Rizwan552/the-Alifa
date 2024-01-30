@@ -95,7 +95,7 @@ body {
   }
   .logo {
     width: 5rem;
-    height: 5rem;
+  
     object-fit: cover;
   }
   .navigation {

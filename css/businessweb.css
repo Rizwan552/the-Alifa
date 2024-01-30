@@ -110,7 +110,34 @@ body {
   position: relative;
 }
 .home10{  
-  background:url("https://thealifa.com/wp-content/uploads/2023/11/UIUX-Design​.png")no-repeat;
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/UIUX-Design​.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home11{  
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/Android-App-Development​.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home12{  
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/iOS-App-Development.png") no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.home13{  
+  background:url("https://thealifa.com/wp-content/uploads/2023/11/Hybrid-App-Development​1.png") no-repeat;
   height: 80vh;
   /* filter: brightness(80%); */
   background-size: cover;
@@ -147,6 +174,15 @@ body {
 }
 .social-5{
   background:url(../images/influence.jpeg) no-repeat;
+  height: 80vh;
+  /* filter: brightness(80%); */  
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+.social-6{
+  background:url(../images/linkedin.jpeg) no-repeat;
   height: 80vh;
   /* filter: brightness(80%); */  
   background-size: cover;
@@ -217,7 +253,7 @@ body {
   }
   .logo {
     width: 5rem;
-    height: 5rem;
+    
     object-fit: cover;
   }
   .navigation {
@@ -432,6 +468,7 @@ body {
 }
 .dropdown-item:hover{
   background-color: rgb(249, 182, 0) !important;
+  color: white !important;
 }
 .dropdown:hover .first-drop {
   display: block;
@@ -618,3 +655,50 @@ ul {
   font-size: 18px;
   
   }
+  
+  #navbar {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* overflow-x: auto; Enable horizontal scrolling for small screens */
+}
+
+button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+    button {
+        padding: 10px;
+        font-size: 0.8em;
+    }
+}
+
+#navbar button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#navbar button:hover {
+    background-color: #555;
+}
+   

@@ -427,6 +427,7 @@ ul {
     visibility: hidden;
     pointer-events: none;
     transition: all 0.5s ease-in-out;
+    padding: 0%;
   }
 
   .nav_menu.active {
@@ -796,7 +797,7 @@ ul {
     top: -7px;
   }
   .first-drop{
-    margin: 0px -40px !important;
+    margin: 0px -20px !important;
     width: 50% !important;
   }
   
